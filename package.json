@@ -1,0 +1,36 @@
+{
+  "name": "@ilb/mailer",
+  "version": "1.0.0",
+  "description": "nodemailer wrapper",
+  "main": "src/mailer.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilb/mailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "src"
+  ],
+  "bugs": {
+    "url": "https://github.com/ilb/mailer/issues"
+  },
+  "homepage": "https://github.com/ilb/mailer#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1"
+  }
+}

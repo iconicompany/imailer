@@ -1,2 +1,2 @@
-# nodemailer
-nodemailer wapper
+# mailer
+Рассылка сообщений
