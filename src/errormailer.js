@@ -1,4 +1,4 @@
-const mailer = require('./mailer');
+const { mailer } = require('./mailer');
 
 function format(err) {
   return {
