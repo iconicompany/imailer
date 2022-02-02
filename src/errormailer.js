@@ -3,7 +3,7 @@ const { mailer } = require('./mailer');
 function format(err) {
   return {
     subject: `[NODEJS FATAL ERROR]`,
-    text: `${err.stack}`
+    text: `${err.message}\n${err.stack}`
   };
 }
 async function notify(err) {
