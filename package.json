@@ -1,6 +1,6 @@
 {
   "name": "@ilb/mailer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "nodemailer wrapper",
   "main": "src/mailer.js",
   "scripts": {
