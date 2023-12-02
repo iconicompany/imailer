@@ -7,6 +7,9 @@ function format(err) {
   };
 }
 async function notify(err) {
+  if (err.status) {
+    if (![500, 550].includes(err.status)) return;
+  }
   if (process.env.SERVER_ADMIN) {
     const message = format(err);
     message.to = process.env.SERVER_ADMIN;
