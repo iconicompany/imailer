@@ -1,5 +1,5 @@
 {
-  "name": "@ilb/mailer",
+  "name": "@iconicompany/imailer",
   "version": "1.1.0",
   "description": "nodemailer wrapper",
   "main": "src/mailer.js",
